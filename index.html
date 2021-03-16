@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Memory Game</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info-container">
+            <span class="button">
+                <span class="tries">0</span> Tries
+            </span>
+            <span class="button">
+                <a onclick="ResetGame();">Reset</a>
+            </span>
+        </div>
+        <div class="memory-game-blocks">
+            <div class="block-game" data-fruits="coconut">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\coconut.png">
+                </div>
+            </div>
+            <div class="block-game" data-fruits="coconut">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\coconut.png">
+                </div>
+            </div>
+
+            <div class="block-game" data-fruits="cabbage">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\cabbage.png">
+                </div>
+            </div>
+            <div class="block-game" data-fruits="cabbage">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\cabbage.png">
+                </div>
+            </div>
+
+            <div class="block-game" data-fruits="strawberry">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\strawberry.png">
+                </div>
+            </div>
+            <div class="block-game" data-fruits="strawberry">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\strawberry.png">
+                </div>
+            </div>
+
+            <div class="block-game" data-fruits="pineapple">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\pineapple.png">
+                </div>
+            </div>
+            <div class="block-game" data-fruits="pineapple">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\pineapple.png">
+                </div>
+            </div>
+
+            <div class="block-game" data-fruits="orange">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\orange.png">
+                </div>
+            </div>
+            <div class="block-game" data-fruits="orange">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\orange.png">
+                </div>
+            </div>
+
+            <div class="block-game" data-fruits="grapes">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\grapes.png">
+                </div>
+            </div>
+            <div class="block-game" data-fruits="grapes">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\grapes.png">
+                </div>
+            </div>
+
+            <div class="block-game" data-fruits="bananas">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\bananas.png">
+                </div>
+            </div>
+            <div class="block-game" data-fruits="bananas">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\bananas.png">
+                </div>
+            </div>
+
+            <div class="block-game" data-fruits="watermelon">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\watermelon.png">
+                </div>
+            </div>
+            <div class="block-game" data-fruits="watermelon">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\watermelon.png">
+                </div>
+            </div>
+
+            <div class="block-game" data-fruits="avocado">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\avocado.png">
+                </div>
+            </div>
+            <div class="block-game" data-fruits="avocado">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\avocado.png">
+                </div>
+            </div>
+
+            <div class="block-game" data-fruits="mango">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\mango.png">
+                </div>
+            </div>
+            <div class="block-game" data-fruits="mango">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images\mango.png">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="footer">
+            &copy; 2021 Farida.com
+        </div>
+    </div>
+    <audio id="success" src="audio/success.mp3" preload="auto"></audio>
+    <audio id="fail" src="audio/fail.mp3" preload="auto"></audio>
+    <script src="main.js"></script>
+</body>
+
+</html>
